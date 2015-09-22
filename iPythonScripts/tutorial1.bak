@@ -1,15 +1,6 @@
 {
  "cells": [
   {
-   "cell_type": "markdown",
-   "metadata": {
-    "collapsed": false
-   },
-   "source": [
-    "####Read an Image"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
@@ -23,15 +14,7 @@
     "import matplotlib.pyplot as plt\n",
     "\n",
     "img = io.imread('wheel.jpg')\n",
-    "io.imshow(img)\n",
-    "print \"Image Dimensions are : \",img.shape "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "####Lets play around with it a bit"
+    "io.imshow(img)"
    ]
   },
   {
@@ -83,13 +66,6 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "####Simple operations"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
@@ -101,6 +77,15 @@
     "img[mask] = 255\n",
     "io.imshow(img)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
